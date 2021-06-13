@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="Recourse.css">
+        <link rel="icon" type="image/png" href="favicon-32x32.png">
+        <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    </head>
+    <div class="sticky">
+        <header>
+                <ul class="horizontal">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="About.html" >About Us</a></li>
+                    <div class="dropdown">
+                        <li><button class="tips">Tips</button>
+                            <div class="dropdown-content">
+                            <a href="Home isolation.html">Home isolation</a>
+                            <a href="About.html" >Post Covid</a>
+                            </div>
+                        </li>
+                    </div> 
+                    <li><a href="Contact.html" class="active">Contact Us</a></li>
+                    <li><input type="search" ><input type="button" value="🔍"></li>
+                </ul>
+        </header>
+        
+       </div><br><br>
+         <img class="img" src="logo.png" alt="Covid resourc" height="100px" width="100" usemap="#index" style="margin-left: 10px;margin-bottom: 0px;padding-bottom: 0px;">
+            <map name="index">
+                <area shape="rect" coords="0,00,300,100" alt="logo" href="index.html">
+            </map>
+        <body background="contactus.png">
+            <script>
+                function anonymous(){
+                    
+                    document.getElementById("contact").innerHTML="<form><textarea id='check' class='input' style='height:200px' placeholder='type anonymously....' required></textarea><br><br></form>";
+                    
+                   
+                }
+            </script>
+            <div style="height: 140px;width: 100%;"></div>
+            <div class="flex-container" style="height:400px;">
+                <div>
+                    <form>
+                        <span style="height: 80px">
+                            <label style="height: 35px">Send anonymously</label>
+                            <input " type="checkbox"  onchange="anonymous()">
+                        </span><br><br>
+                        <div id="contact">
+                            <input class="input" id="name" type="text" name="name" placeholder="Enter full name" required>
+                            <br><br>
+                            <input class="input" type="email" name="mail" placeholder="E-mail" required>
+                            <br><br>
+                            <textarea class="input" style="height:100px" placeholder="please give suggesstion" required></textarea>
+                            <br><br>
+                        </div>
+                        <button style="height: 30px;width: 150px;background-color: #dddddd;border: 0;">Submit</button>
+                    </form>
+                </div>
+                <div>
+                    <p><a href="https://www.google.co.in/maps" target="_blank">🌎</a> &nbsp Address : Covid resources office , outer circle connaught place , Delhi-110001</p>
+                    <p><a href="https://mail.google.com/mail/u/0/#inbox?compose=new" target="_blank">📧</a>&nbsp Mail at: CovidResources@gmail.com</p>               
+                    <p><a href="https://www.efax.com/" target="_blank">📠</a>&nbsp Fax at: 011-22228888S</p>                
+                    <p>📞&nbsp 011-22228888<br>9999222200,9898676754</p>               
+                </div>
+            </div>
+                    <div style="background-color: #293d3d;width: 100%;height: 250px;">
+            <center>
+            <img src="logo.png" alt="Covid resourc" height="150px" width="150px" usemap="#index">
+            
+            <br>
+            <a class="nocolor" href="https://www.facebook.com/" style="padding:20px 15px;"><i class="fab fa-facebook" style="font-size:34px;color: black;"></i></a>
+            <a class="nocolor" href="" style="color: black;font-size:34px;padding:20px 15px; "><i class="fab fa-instagram-square" style="font-size:34px;"></i></a>
+            <a class="nocolor" href="" style="padding:20px 15px;"><i class="fab fa-twitter-square" style="font-size:34px;color:black;"></i></a>
+            <a class="nocolor" href="" ><i class="fab fa-wikipedia-w" style="font-size:34px;color:black;"></i></a>
+            </center>
+        </div>
+        </body>
+</html>

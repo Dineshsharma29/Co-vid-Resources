@@ -1,0 +1,196 @@
+<html>
+    <head>
+        <title>Home/Drugs</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="Recourse.css">
+        <link rel="icon" type="image/png" href="favicon-32x32.png">
+        <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+        <script>
+            var a=0;
+            function addRemdisivir()
+            {
+                a=a+1;
+                document.getElementById("addRemdisivir").innerHTML=a;
+            }
+            function subRemdisivir()
+            {
+                a=a-1;
+                document.getElementById("addRemdisivir").innerHTML=a;
+            }
+            var b=0;
+            function addDexamethasone()
+            {
+                b=b+1;
+                document.getElementById("addDexamethasone").innerHTML=b;
+            }
+            function subDexamethasone()
+            {
+                b=b-1;
+                document.getElementById("addDexamethasone").innerHTML=b;
+            }
+            function delhi()
+            {
+                document.getElementById("background").style.backgroundImage = "url(delhi.png)";
+                document.getElementById("index").innerHTML="<span>Home / Drugs / Delhi</span>"; 
+                document.getElementById("contact").innerHTML="<form><center><table><tr><td><input class='input' id='name' type='text' name='paitentName' placeholder='Paitent name' required><td></tr><tr><td>&nbsp;</td></tr><tr><td><input class='input' type='number' name='aadharNumber' placeholder='Paitent Aadhar Number' required></td></tr><tr><td>&nbsp;</td></tr><tr><td><label>Paitent covid report</label></td><td><input type='file' required></td></tr><tr><td>&nbsp;</td></tr><tr><td><label>Remdesivir (Veklury) </label> </td><td ><span style=' line-height:inherit;  background-color: #f1f1f1;'><input style='border:0px;' type='button' value='-' onclick='subRemdisivir()'><label id='addRemdisivir' style='background-color:#f1f1f1;'>Add</label><input type='button' value='+' style='border:0px; background-color:#f1f1f1;' onclick='addRemdisivir()'></span></td></tr><tr><td>&nbsp;</td></tr><tr><td><label>Dexamethasone</label> </td><td><span style= 'background-color: #f1f1f1'><input style='border:0px;' type='button' value='-' onclick='subDexamethasone()'><label id='addDexamethasone'>Add</label><input style='border:0px;' type='button' value='+' onclick='addDexamethasone()'></span></td><tr><td>&nbsp;</td></tr><tr><td><textarea class='input' style='height:100px' placeholder='Not mentioned above....'></textarea></td></tr>  <tr><td>&nbsp;</td></tr><tr><td><button class='cities' style=' margin-left: 150px;'>Submit</button></td></tr></table></center></form>";
+            }
+            function mumbai()
+            {
+                document.getElementById("background").style.backgroundImage = "url(mumbai.png)";
+                document.getElementById("index").innerHTML="<span>Home / Drugs / Mumbai</span>"; 
+                document.getElementById("contact").innerHTML="<form><center><table><tr><td><input class='input' id='name' type='text' name='paitentName' placeholder='Paitent name' required><td></tr><tr><td>&nbsp;</td></tr><tr><td><input class='input' type='number' name='aadharNumber' placeholder='Paitent Aadhar Number' required></td></tr><tr><td>&nbsp;</td></tr><tr><td><label>Paitent covid report</label></td><td><input type='file' required></td></tr><tr><td>&nbsp;</td></tr><tr><td><label>Remdesivir (Veklury) </label> </td><td ><span style=' line-height:inherit;  background-color: #f1f1f1;'><input style='border:0px;' type='button' value='-' onclick='subRemdisivir()'><label id='addRemdisivir' style='background-color:#f1f1f1;'>Add</label><input type='button' value='+' style='border:0px; background-color:#f1f1f1;' onclick='addRemdisivir()'></span></td></tr><tr><td>&nbsp;</td></tr><tr><td><label>Dexamethasone</label> </td><td><span style= 'background-color: #f1f1f1'><input type='button' value='-' onclick='subDexamethasone()'><label id='addDexamethasone'>Add</label><input type='button' value='+' onclick='addDexamethasone()'></span></td><tr><td>&nbsp;</td></tr><tr><td><textarea class='input' style='height:100px' placeholder='Not mentioned above....'></textarea></td></tr>  <tr><td>&nbsp;</td></tr><tr><td><button class='cities' style='margin-left: 150px;'>Submit</button></td></tr></table></center></form>";       
+            }
+            function uttarakhand()
+            {
+                document.getElementById("background").style.backgroundImage = "url(Uttrakhand.png)";
+                document.getElementById("index").innerHTML="<span>Home / Drugs / Uttarakhand</span>";  
+                document.getElementById("contact").innerHTML="<form><center><table><tr><td><input class='input' id='name' type='text' name='paitentName' placeholder='Paitent name' required><td></tr><tr><td>&nbsp;</td></tr><tr><td><input class='input' type='number' name='aadharNumber' placeholder='Paitent Aadhar Number' required></td></tr><tr><td>&nbsp;</td></tr><tr><td><label>Paitent covid report</label></td><td><input type='file' required></td></tr><tr><td>&nbsp;</td></tr><tr><td><label>Remdesivir (Veklury) </label> </td><td ><span style=' line-height:inherit;  background-color: #f1f1f1;'><input style='border:0px;' type='button' value='-' onclick='subRemdisivir()'><label id='addRemdisivir' style='background-color:#f1f1f1;'>Add</label><input type='button' value='+' style='border:0px; background-color:#f1f1f1;' onclick='addRemdisivir()'></span></td></tr><tr><td>&nbsp;</td></tr><tr><td><label>Dexamethasone</label> </td><td><span style= 'background-color: #f1f1f1';><input type='button' value='-' onclick='subDexamethasone()'><label id='addDexamethasone'>Add</label><input type='button' value='+' onclick='addDexamethasone()'></span></td><tr><td>&nbsp;</td></tr><tr><td><textarea class='input' style='height:100px' placeholder='Not mentioned above....'></textarea></td></tr>  <tr><td>&nbsp;</td></tr><tr><td><button class ='cities' style='margin-left: 150px; background-color: #dddddd;border: 0;'>Submit</button></td></tr></table></center></form>";
+            }
+            function uttraPradesh()
+            {
+                document.getElementById("background").style.backgroundImage = "url(imageedit_1_2279676895.png)";
+                document.getElementById("index").innerHTML="<span>Home / Drugs / Uttra pradesh</span>";  
+                document.getElementById("contact").innerHTML="<center><h1> Sorry <br>No stock Available in Uttra Pradesh</h1><img style='height:100px;width:100px;' src='sad.png'></center>";
+            }
+            function punjab()
+            {
+                document.getElementById("background").style.backgroundImage = "url(imageedit_1_2279676895.png)";
+                document.getElementById("index").innerHTML="<span>Home / Drugs / Punjab</span>";  
+                document.getElementById("contact").innerHTML="<center><h1> Sorry <br>No stock Available in Punjab</h1><img style='height:100px;width:100px;' src='sad.png'></center>";
+            }
+            function Chandigarh()
+            {
+                document.getElementById("background").style.backgroundImage = "url(imageedit_1_2279676895.png)";
+                document.getElementById("index").innerHTML="<span>Home / Drugs / Chandigarh</span>";  
+                document.getElementById("contact").innerHTML="<center><h1> Sorry <br>No stock Available in Chandigarh</h1><img style='height:100px;width:100px;' src='sad.png'></center>";
+            }
+            function bihar()
+            {
+                document.getElementById("background").style.backgroundImage = "url(imageedit_1_2279676895.png)";
+                document.getElementById("index").innerHTML="<span>Home / Drugs / Bihar</span>";  
+                document.getElementById("contact").innerHTML="<center><h1> Sorry <br>No stock Available in Bihar</h1><img style='height:100px;width:100px;' src='sad.png'></center>";
+            }
+            function gujrat()
+            {
+                document.getElementById("background").style.backgroundImage = "url(imageedit_1_2279676895.png)";
+                document.getElementById("index").innerHTML="<span>Home / Drugs / Gujrat</span>";  
+                document.getElementById("contact").innerHTML="<center><h1>Sorry <br>No stock Available in Gujrat</h1><img style='height:100px;width:100px;' src='sad.png'></h1></center>";
+            }
+
+
+        </script>
+        <style>
+            span{
+                padding: 0px;
+                margin: 0px;
+                margin-left: 10px;   
+                
+            }
+            label,span{
+                font-size: 20px;
+            }
+            input{
+                border: 0px;
+            }
+        </style>
+    </head>
+    <body background="imageedit_1_2279676895.png" id="background"><br><br>
+        <div class="top">     
+            <img class="img" src="logo.png" alt="Covid resourc" height="100px" width="100" usemap="#index" style="margin-left: 10px;margin-bottom: 0px;padding-bottom: 0px;">
+            <map name="index">
+                <area shape="rect" coords="0,00,300,100" alt="logo" href="index.html">
+            </map>
+        <div class="sticky">
+            <header>
+                <ul class="horizontal">
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="About.html">About Us</a></li>
+                    <div class="dropdown">
+                        <li><button class="tips">Tips</button>
+                            <div class="dropdown-content">
+                            <a href="Home isolation.html">Home isolation</a>
+                            <a href="About.html" >Post Covid</a>
+                            </div>
+                        </li>
+                        </div> 
+                <li><a href="Contact.html" >Contact Us</a></li>
+                <li><input type="search" ><input type="button" value="🔍"></li>
+                </ul>
+            </header>
+        </div>
+        </div>
+        <hr style=" margin: 0px;padding: 0px;">
+        <h3 id="index" style="line-height: 40px; margin: 0px;padding: 0px;">
+            <span>Home / Drugs</span>
+        </h3>
+        <hr style=" margin: 0px;">
+        <div class="flex-container" style="height:450px;">
+            <div>                  
+                <input  class="cities" type="button" value="Delhi" onclick="delhi()">
+                <br><br>
+                <input class="cities" type="button" value="Mumbai" onclick="mumbai()">
+                <br><br>
+                <input id="activecity" class="cities" type="button" value="Uttarakhand" onclick="uttarakhand()">
+                <br><br>
+                <input class="cities" type="button" value="Uttra Pradesh" onclick="uttraPradesh()">
+                <br><br>
+                <input class="cities" type="button" value="Punjab" onclick="punjab()">
+                <br><br>
+                <input class="cities" type="button" value="Chandigarh" onclick="Chandigarh()">
+                <br><br>
+                <input class="cities" type="button" value="Bihar" onclick="bihar()">
+                <br><br>
+                <input class="cities" type="button" value="Gujrat" onclick="gujrat()">
+                <br><br>
+            </div>
+                <div>
+                    <div id="contact">
+                        <form>
+                        <center>
+                        <table>    
+                        
+                            <tr><td><input class="input" id="name" type="text" name="paitentName" placeholder="Paitent name" required><td></tr>
+                            <tr><td>&nbsp;</td></tr>
+                            <tr><td><input class="input" type="number" name="aadharNumber"  placeholder="Paitent Aadhar Number" required></td></tr>
+                            <tr><td>&nbsp;</td></tr>
+                            <tr>
+                                <td><label>Paitent covid report</label></td>
+                                <td><input type="file" required></td>
+                            </tr>
+                            <tr><td>&nbsp;</td></tr>
+                            <tr>
+                            <td><label>Remdesivir (Veklury) </label> </td>
+                            <td ><span style=" line-height:inherit;  background-color: #f1f1f1;"><input style="border:0px;" type="button" value="-" onclick="subRemdisivir()">
+                            <label id="addRemdisivir" style="background-color:#f1f1f1;">Add</label>
+                            <input type="button" value="+" style="border:0px; background-color:#f1f1f1;" onclick="addRemdisivir()"></span></td>
+                            </tr>
+                            <tr><td>&nbsp;</td></tr>
+                            <tr>
+                            <td><label>Dexamethasone</label> </td>
+                            <td><span style=" line-height:inherit;  background-color: #f1f1f1;"><input style="border:0px;" type="button" value="-" onclick="subDexamethasone()">
+                            <label id="addDexamethasone">Add</label>
+                            <input style="border:0px;" type="button" value="+" onclick="addDexamethasone()"></span></td> 
+                            <tr><td>&nbsp;</td></tr>
+                            <tr><td><textarea class="input" style="height:100px" placeholder="Not mentioned above...." required></textarea></td></tr>  
+                            <tr><td>&nbsp;</td></tr>
+                            <tr><td><button class="cities" style="margin-left: 150px;">Submit</button></td></tr>                        
+                        </table>
+                        </center>
+                    </form>
+                </div>
+        </div>
+        </div>
+                <div style="background-color: #293d3d;width: 100%;height: 250px;">
+            <center>
+            <img src="logo.png" alt="Covid resourc" height="150px" width="150px" usemap="#index">
+            
+            <br>
+            <a class="nocolor" href="https://www.facebook.com/" style="padding:20px 15px;"><i class="fab fa-facebook" style="font-size:34px;color: black;"></i></a>
+            <a class="nocolor" href="" style="color: black;font-size:34px;padding:20px 15px; "><i class="fab fa-instagram-square" style="font-size:34px;"></i></a>
+            <a class="nocolor" href="" style="padding:20px 15px;"><i class="fab fa-twitter-square" style="font-size:34px;color:black;"></i></a>
+            <a class="nocolor" href="" ><i class="fab fa-wikipedia-w" style="font-size:34px;color:black;"></i></a>
+            </center>
+        </div>
+    </body>
+</html>
